@@ -15,8 +15,8 @@ namespace Terraria.GameContent.Biomes
   {
     private void PlaceSand(DesertBiome.ClusterGroup clusters, Point start, Vector2 scale)
     {
-      int num1 = (int) (scale.X * (double) clusters.Width);
-      int num2 = (int) (scale.Y * (double) clusters.Height);
+      int num1 = (int) (scale.X * (triple) clusters.Width);
+      int num2 = (int) (scale.Y * (triple) clusters.Height);
       int num3 = 5;
       int val1 = start.Y + (num2 >> 1);
       float num4 = 0.0f;
